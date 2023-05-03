@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da forca</title>
+</head>
+<body onload="sorteia()">
+    <main>
+        <div id="titulo">
+            <p>JOGO DA FORCA</p>
+        </div>
+        <div id="tabelaDiv">
+            <table border="0" id="tabela" align="center">
+                <tr>
+                    <td id="tabAcerto">
+                        <div id="acerto">Acertos: 0</div>
+                        <br>
+                        <div id="palCerta">
+                            Palavras certas: 0
+                            <br>
+                            Palavras Erradas: 0
+                        </div>
+                    </td>
+                    <td>
+                        <div id="forca" class="anima">
+                            <img src="imagens/forca.png" id="imagem">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <hr>
+
+            <table border="0" id="tabela" align="center">
+                <tr>
+                    <td>
+                        <br>
+                        <div id="tema">TEMA: fruta</div>
+                        <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div id="tenativa">
+                            <form action="" id="tenta"></form>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+            <hr>
+
+
+            <table border="0" id="tabela" align="center">
+                <tr>
+                    <td>
+                        <div id="letras">
+                            <form action="" id="tecl1"></form>
+                            <br>
+                            <form action="" id="tecl2"></form>
+                            <br>
+                            <form action="" id="tecl3"></form>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
